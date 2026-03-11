@@ -1,1 +1,1 @@
-# liver_patient_pred
+# THIS IS LIVER PATIENT PREDICTION PROJECT
