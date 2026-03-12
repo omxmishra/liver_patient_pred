@@ -6,7 +6,7 @@ The project combines **data analysis, machine learning, and deployment** into an
 
 ---
 
-# 🚀 Project Overview
+#  Project Overview
 
 Liver disease can often be detected through abnormal biochemical markers.
 
@@ -22,7 +22,7 @@ The model predicts the **probability of liver disease** and provides a risk asse
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 Dataset used: **Indian Liver Patient Dataset**
 
@@ -43,7 +43,7 @@ Dataset contains:
 
 The project follows a full ML pipeline:
 
-### 1️⃣ Data Preprocessing
+###  Data Preprocessing
 
 - Missing value handling
 - Label encoding
@@ -53,7 +53,7 @@ The project follows a full ML pipeline:
 
 ---
 
-### 2️⃣ Exploratory Data Analysis
+###  Exploratory Data Analysis
 
 - Distribution analysis
 - Box plots
@@ -62,7 +62,7 @@ The project follows a full ML pipeline:
 
 ---
 
-### 3️⃣ Model Training
+### Model Training
 
 Multiple classifiers were trained and compared:
 
@@ -76,7 +76,7 @@ Multiple classifiers were trained and compared:
 
 ---
 
-### 4️⃣ Model Evaluation
+###  Model Evaluation
 
 Metrics used:
 
@@ -92,16 +92,16 @@ Best performing model:
 
 ---
 
-# 🧠 Model Pipeline
+#  Model Pipeline
+The final deployment pipeline includes:
 
 Log Transformation → StandardScaler → Gradient Boosting Model
-
 
 This ensures the model performs the **same preprocessing during inference** as during training.
 
 ---
 
-# 🌐 Web Application
+#  Web Application
 
 The trained model is deployed using **Streamlit**.
 
@@ -115,7 +115,7 @@ Features of the dashboard:
 
 ---
 
-# 📷 Application Preview
+#  Application Preview
 
 <img src="app_preview.png" width="900">
 
@@ -133,7 +133,7 @@ Streamlit
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 liver_disease_prediction/
 
@@ -145,4 +145,30 @@ liver_disease_prediction/
 ├── liver_analysis.ipynb
 └── README.md
 
-The final deployment pipeline includes:
+# Model Performance
+
+| Metric | Score |
+|------|------|
+Accuracy | 0.78 |
+ROC-AUC | 0.83 |
+Recall | 0.73 |
+F1 Score | 0.82 |
+
+---
+
+# 💡 Future Improvements
+
+- Larger dataset
+- Deep learning models
+- Model explainability (SHAP)
+- Cloud deployment
+
+---
+
+# ScreenShots
+
+<img width="1918" height="961" alt="image" src="https://github.com/user-attachments/assets/4f165f1f-0923-41bf-8ef9-b7189f4149fa" />
+
+<img width="1910" height="955" alt="image" src="https://github.com/user-attachments/assets/fe093fba-aae0-4ac8-80a3-a2105800b73a" />
+
+
